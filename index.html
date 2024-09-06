@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Godstime - Random Quote Generator</title>
+</head>
+<body>
+  <div class="modal-copy">
+    <p>Text is Copied to Clipboard</p>
+  </div>
+  <div class="container">
+    <div class="quote-detail">
+      <h2 class="title">Quote of the Day</h2>
+      <p class="quote"><q>Click the New Quote Button to Generate Quotes</q></p>
+      
+      <div class="author">
+        <p class="author-quote"></p>
+      </div>
+    </div>
+    <hr noshade>
+    <div class="quote-control">
+      <button onclick="renderQuote()" class="new-quote">New Quote</button>
+    <div class="quote-tools">
+      <img src="copy.svg" alt="copy icon" class="icon copy"/>
+      <img src="voice.png" alt="voice icon" class="icon copy icon-voice"/>
+    </div>
+    </div>
+  </div>
+  <script src="application.js"></script>
+</body>
+</html>
